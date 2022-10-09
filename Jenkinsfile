@@ -1,3 +1,4 @@
 @Library('roboshop-shared-library@main')
 
-nodejs()
+env.COMPONENT="user"
+nodejs("user")
